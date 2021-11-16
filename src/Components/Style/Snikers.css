@@ -1,0 +1,38 @@
+.Sniker {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sniker button {
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: pink;
+}
+
+.Sniker button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.Sniker button:active,
+.Sniker button:focus {
+  outline: none;
+}
+
+.bar {
+  position: absolute;
+  z-index: -1;
+}
+.SnikerMessage {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  text-transform: uppercase;
+  border-radius: 10px;
+} 
